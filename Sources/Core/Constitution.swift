@@ -7,6 +7,6 @@
 
 class Constitution: Law {
     init(name: String) {
-        super.init(name: name, level: 1)  // 憲法層級最高
+        super.init(name: name, level: .constitution)  // 憲法層級最高
     }
 }
